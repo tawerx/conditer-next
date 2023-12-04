@@ -30,7 +30,7 @@ const index = () => {
       <Head>
         <title>Кондитерский цех ИП Бурлакова Т.А.</title>
         <meta keywords="Кондитерский цех ИП Бурлаков Т.А., торты на заказ Рязань"></meta>
-        <link rel="shortcut icon" href="/static/favicon64.png" />
+        <link rel="shortcut icon" href="/favicon64.png" />
       </Head>
       <div className="wrapper">
         <div className="home" ref={homeRef}>
@@ -120,7 +120,7 @@ const index = () => {
                 return (
                   <div key={file} className="product">
                     <Image
-                      src={require(`../public/static/cakes/${file}`)}
+                      src={require(`../public/cakes/${file}`)}
                       alt="Заказной торт"
                       width={300}
                       height={300}
