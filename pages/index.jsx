@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Image from 'next/image';
 import React from 'react';
 import { Button } from 'react-scroll';
@@ -27,15 +26,6 @@ const index = () => {
 
   return (
     <>
-      <Head>
-        <title>Кондитерский цех ИП Бурлакова Т.А.</title>
-        <meta keywords="Кондитерский цех ИП Бурлаков Т.А."></meta>
-        <meta keywords="Торты на заказ Рязань"></meta>
-        <meta keywords="Торты Рязань"></meta>
-        <meta keywords="Кондитерские изделия Рязань"></meta>
-        <meta name="yandex-verification" content="2d46ad2aa2ab80f6" />
-        <link rel="shortcut icon" href="/favicon64.png" />
-      </Head>
       <div className="wrapper">
         <div className="home" ref={homeRef}>
           <div className="info_home">
