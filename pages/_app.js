@@ -25,6 +25,10 @@ export default function MyApp({ Component, pageProps }) {
           property="og:description"
           content="Кондитерский цех ИП Бурлакова Т.А. занимается производством кондитерских изделий: торты на заказ, пирожные"
         />
+        <meta
+          name="description"
+          content="Кондитерских цех ИП Бурлакова - это место ваших шоколадных фантазий. У нас вы найдете торты на заказ, пирожные и прочие кондитерские изделия."
+        />
         <meta property="og:site_name" content="Кондитерский цех ИП Бурлакова Т.А." />
       </Head>
       <Component {...pageProps} />

@@ -302,6 +302,13 @@ body {
   justify-content: center;
   min-height: 200px;
 
+  a {
+    color: black;
+    outline: none;
+    // text-decoration: none;
+    font-size: 22px;
+  }
+
   p,
   li {
     font-size: 22px;
@@ -318,9 +325,20 @@ body {
 }
 
 .footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
   width: 70vw;
   text-align: center;
   margin-top: 25px;
   border-top: 1px solid rgba($color: #000000, $alpha: 0.3);
   padding: 10px;
+
+  svg {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+  }
 }
